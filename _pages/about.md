@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Welcome to my website! I am an observational cosmologist with a focus on analyzing data from multiple large surveys to constrain cosmological models. I will be starting as a [Faculty of Arts & Sciences Fellow](https://www.sgs.utoronto.ca/awards/arts-science-postdoctoral-fellowship-program/) and a [Dunlap Fellow](https://www.dunlap.utoronto.ca/dunlap-fellowship/) at the [University of Toronto](https://www.utoronto.ca/) from November 2023. 
+
+I obtained my Ph.D. and A.M. from the [Department of Astronomy, Harvard University](https://astronomy.fas.harvard.edu/) and my B.S. from the [Department of Physics & Astronomy, University of Rochester](https://www.pas.rochester.edu/). Since the beginning of graduate school, I have been a member of the [Dark Energy Spectroscopic Instrument](https://www.desi.lbl.gov/) Collaboration where I have been leading efforts on the cross-correlation of Emission-Line Galaxies with Cosmic Microwave Background Lensing surveys. Besides [research](/_pages/research.md), I am passionate about mentoring and DEI initiatives to make astronomy a more inclusive field for everyone. Outside of astronomy, I enjoy reading, learning languages, board games and being out in nature. 
 
 A data-driven personal website
 ======
