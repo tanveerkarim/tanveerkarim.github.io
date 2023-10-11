@@ -11,13 +11,9 @@ Additionally, I have worked on various Milky Way-related observational projects 
 
 As a new postdoc, I am now excited to venture into Machine Learning and Artificial Intelligence-driven projects and to understand how we can use these powerful techniques to study our Universe with unprecedented precision. I am also interested in exploring the bridge between theory and observation - how do we know that we have learned something new about a model from data? If you are interested in collaborating, please reach out! 
 
-<nbsp>
-
 {% include base_path %}
 
-{% assign ordered_pages = site.research | sort:"order_number" %}
 
-{% for post in ordered_pages %}
-  {% include archive-single.html type="grid" %}
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
 {% endfor %}
-
