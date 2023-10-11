@@ -13,7 +13,8 @@ As a new postdoc, I am now excited to venture into Machine Learning and Artifici
 
 {% include base_path %}
 
+{% assign ordered_pages = site.research | sort:"order_number" %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% for post in ordered_pages %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
