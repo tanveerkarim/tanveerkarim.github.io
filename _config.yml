@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Tanveer Karim"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Tanveer Karim"
 description              : &description "personal description"
 url                      : https://tanveerkarim.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -230,7 +230,7 @@ defaults:
   # _research
   - scope:
       path: ""
-      type: research
+      type: "research"
     values:
       layout: single
       author_profile: true
