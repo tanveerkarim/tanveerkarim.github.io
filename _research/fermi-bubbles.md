@@ -1,11 +1,10 @@
 ---
-title: "Measuring Solar Height above the Milky Way Plane"
+title: "Characterizing Fermi Bubbles High Velocity-Clouds"
 #date: 2023-10-12
 layout: single-portfolio
 excerpt: "<img src='/images/research/img-sys.png' alt=''>"
 collection: research
-order_number: 30
+order_number: 20
 header: 
   og_image: "research/img-sys.png"
 ---
-
