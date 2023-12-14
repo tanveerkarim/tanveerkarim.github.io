@@ -10,6 +10,7 @@ header:
 tags:
   - cosmology
   - elgs
+  - desi
 ---
 
 # The Growth of Structure Tension
@@ -25,7 +26,6 @@ Combined with the more well-known [Hubble tension](https://en.wikipedia.org/wiki
 The [Dark Energy Spectroscopic Instrument (DESI)](https://desi.lbl.gov/) is an ongoing spectroscopic galaxy survey that aims to observe $\sim 50$ million objects to generate the most precise $3$-D map of the Universe to-date. In this effort, DESI will be looking back as far as $~10$ billion years ago, or when the Universe was just $\sim 3$ billion years old. 
 
 # Emission-Line Galaxies (ELGs)
-
 
 ## Cross-Correlation
 
