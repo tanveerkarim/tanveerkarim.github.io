@@ -27,10 +27,16 @@ The [Dark Energy Spectroscopic Instrument (DESI)](https://desi.lbl.gov/) is an o
 
 # Emission-Line Galaxies (ELGs)
 
-## Cross-Correlation
-
+Emission-Line Galaxies form the largest tracer class within DESI, approximately $\sim 20$ million ELGs will be observed over $5$ years. These star-forming galaxies are numerous in the redshift range $0.6 < z < 1.6$, making them ideal to study the early Universe.
 # Contributions so far
 ## Paper 1: How do we select ELGs?
+[DESI Year 1 Cosmology Catalogue](https://arxiv.org/pdf/2405.16593)\
+[Final ELG Target Selection](https://arxiv.org/pdf/2208.08513)\
+[Target Selection Pipeline for DESI](https://arxiv.org/pdf/2208.08518)\
+[Preliminary ELG Target Selection](https://arxiv.org/pdf/2010.11281)\
+[Validation of ELG Target Selection Strategies](https://arxiv.org/pdf/2007.14484)
 ## Paper 2: How does ELG imaging systematics affect cosmological inferece?
+[Imaging systematics biases ELG auto-power spectrum](https://arxiv.org/pdf/2305.11956)
 
 ## Paper 3: DESI Imaging ELGs X *Planck* CMB Lensing
+In collaboration-wide review. Coming out soon with exciting results!

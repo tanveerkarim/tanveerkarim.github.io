@@ -7,7 +7,7 @@ author_profile: true
 
 Teaching and mentoring has been an essential part of my academic training since my undergraduate years. I have served as a Teaching Assistant for 4 courses at the University of Rochester, a Teaching Fellow for 3 courses at Harvard University, and an instructor for two summer courses. I enjoy teaching general education and early undergraduate-focused courses as it gives me the opportunity to contextualize scientific and quantitative reasoning from the astronomy and physics perspective.
 
-In addition to teaching, I have offered both academic and career mentorship to multiple students. I will be using this space to add the materials I have developed throughout the years. 
+In addition to teaching, I enjoy engaging in both academic and career mentorships.
 
 ## Harvard University
 - Life as a Planetary Phenomenon 
