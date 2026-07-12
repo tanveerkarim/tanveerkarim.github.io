@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  <div class="home">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="home-hero">
+      <div class="home-hero__intro">
+        {% if page.eyebrow %}<p class="home-hero__eyebrow">{{ page.eyebrow }}</p>{% endif %}
+        <h1 class="home-hero__name">{{ site.author.name }}</h1>
+        {% if page.role %}<p class="home-hero__role">{{ page.role }}</p>{% endif %}
+        {% if page.tagline %}<p class="home-hero__tagline">{{ page.tagline }}</p>{% endif %}
+        <div class="home-hero__cta">
+          {% for btn in page.cta %}
+            <a class="cta {% if btn.primary %}cta--primary{% endif %}" href="{% if btn.url contains 'http' or btn.url contains 'mailto' %}{{ btn.url }}{% else %}{{ base_path }}{{ btn.url }}{% endif %}">{{ btn.label }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <img class="home-hero__portrait"
+           src="{% if site.author.avatar contains '://' %}{{ site.author.avatar }}{% else %}{{ site.author.avatar | prepend: '/images/' | prepend: base_path }}{% endif %}"
+           alt="{{ site.author.name }}">
+    </section>
+
+    <!-- ==================== RESEARCH AT A GLANCE ==================== -->
+    <section class="home-section" id="research">
+      <div class="home-section__head">
+        <h2 class="home-section__title">Research at a glance</h2>
+        <a class="home-section__link" href="{{ base_path }}/research/">All research &rarr;</a>
+      </div>
+      <div class="home-research">
+        {% assign cards = site.research | sort: "order_number" %}
+        {% for post in cards %}
+          {% assign img = post.card_image | default: post.header.og_image %}
+          <a class="rcard rcard__link" href="{{ base_path }}{{ post.url }}">
+            {% if img %}
+            <div class="rcard__media">
+              <img src="{{ img | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }}">
+            </div>
+            {% endif %}
+            <div class="rcard__body">
+              <h3 class="rcard__title">{{ post.title }}</h3>
+              {% if post.blurb %}<p class="rcard__blurb">{{ post.blurb }}</p>{% endif %}
+              <span class="rcard__more">Read more &rarr;</span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- ======================== HIGHLIGHTS ========================= -->
+    {% if page.highlights %}
+    <section class="home-section">
+      <div class="home-highlights">
+        {% for h in page.highlights %}
+        <div class="hl">
+          <p class="hl__k">{{ h.k }}</p>
+          <p class="hl__v">{{ h.v }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- ==================== SELECTED PUBLICATIONS =================== -->
+    {% if page.selected_publications %}
+    <section class="home-section" id="selected">
+      <div class="home-section__head">
+        <h2 class="home-section__title">Selected publications</h2>
+        <a class="home-section__link" href="{{ base_path }}/publications/">Full list &rarr;</a>
+      </div>
+      <ul class="home-pubs">
+        {% for p in page.selected_publications %}
+        <li>
+          <span class="yr">{{ p.year }}</span>
+          <span class="ttl">
+            {% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+            {% if p.venue %}<span class="venue">{{ p.venue }}</span>{% endif %}
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    <!-- =========================== ABOUT =========================== -->
+    <section class="home-section" id="about">
+      <div class="home-section__head">
+        <h2 class="home-section__title">About</h2>
+      </div>
+      <div class="home-about">
+        {{ content }}
+        <div class="home-contact">
+          {% if page.email %}<a href="mailto:{{ page.email }}"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>{% endif %}
+          {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a>{% endif %}
+          {% if site.author.orcid %}<a href="{{ site.author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>{% endif %}
+          {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
+          {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>{% endif %}
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>

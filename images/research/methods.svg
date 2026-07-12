@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract cosmological posterior contours, as in a corner plot">
+  <defs>
+    <radialGradient id="mGlow" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#2a2c66" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#05070d"/>
+  <rect width="800" height="500" fill="url(#mGlow)"/>
+
+  <!-- faint axes -->
+  <g stroke="#8b9bff" stroke-opacity="0.28" stroke-width="1.2">
+    <line x1="150" y1="70" x2="150" y2="430"/>
+    <line x1="150" y1="430" x2="670" y2="430"/>
+  </g>
+  <!-- faint tick grid -->
+  <g stroke="#8b9bff" stroke-opacity="0.10" stroke-width="1">
+    <line x1="280" y1="70" x2="280" y2="430"/>
+    <line x1="410" y1="70" x2="410" y2="430"/>
+    <line x1="540" y1="70" x2="540" y2="430"/>
+    <line x1="150" y1="340" x2="670" y2="340"/>
+    <line x1="150" y1="250" x2="670" y2="250"/>
+    <line x1="150" y1="160" x2="670" y2="160"/>
+  </g>
+
+  <!-- posterior A (periwinkle) -->
+  <g transform="translate(360 250) rotate(-24)">
+    <ellipse rx="150" ry="86" fill="#8b9bff" fill-opacity="0.10" stroke="#8b9bff" stroke-opacity="0.45" stroke-width="1.4"/>
+    <ellipse rx="92" ry="52" fill="#8b9bff" fill-opacity="0.16" stroke="#8b9bff" stroke-opacity="0.7" stroke-width="1.6"/>
+    <ellipse rx="40" ry="22" fill="#8b9bff" fill-opacity="0.28"/>
+  </g>
+
+  <!-- posterior B (cyan) — a slightly tension-shifted constraint -->
+  <g transform="translate(470 210) rotate(-14)">
+    <ellipse rx="120" ry="66" fill="#63e6ff" fill-opacity="0.08" stroke="#63e6ff" stroke-opacity="0.4" stroke-width="1.4"/>
+    <ellipse rx="72" ry="40" fill="#63e6ff" fill-opacity="0.14" stroke="#63e6ff" stroke-opacity="0.65" stroke-width="1.6"/>
+    <ellipse rx="30" ry="17" fill="#63e6ff" fill-opacity="0.26"/>
+  </g>
+
+  <!-- posterior C (soft magenta) — a third model -->
+  <g transform="translate(320 300) rotate(-34)">
+    <ellipse rx="96" ry="54" fill="#c98bd6" fill-opacity="0.07" stroke="#c98bd6" stroke-opacity="0.35" stroke-width="1.3"/>
+    <ellipse rx="54" ry="30" fill="#c98bd6" fill-opacity="0.12" stroke="#c98bd6" stroke-opacity="0.55" stroke-width="1.4"/>
+  </g>
+
+  <!-- truth marker -->
+  <g stroke="#eef1fb" stroke-opacity="0.7" stroke-width="1.4">
+    <line x1="398" y1="242" x2="418" y2="242"/>
+    <line x1="408" y1="232" x2="408" y2="252"/>
+  </g>
+</svg>

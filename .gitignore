@@ -1,3 +1,10 @@
 _site/
 /*/.DS_Store
 .DS_Store
+
+# local Jekyll toolchain (installed to preview locally; not part of the site)
+.gems/
+vendor/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata

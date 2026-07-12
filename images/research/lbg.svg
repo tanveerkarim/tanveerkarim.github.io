@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract deep field of distant galaxies receding with redshift">
+  <defs>
+    <radialGradient id="lbgGlow" cx="72%" cy="18%" r="80%">
+      <stop offset="0%" stop-color="#3b3a8a" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#1a1c3a" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lbgDepth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#63e6ff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="#05070d"/>
+  <rect width="800" height="500" fill="url(#lbgGlow)"/>
+  <rect width="800" height="500" fill="url(#lbgDepth)"/>
+
+  <!-- near, bright/blue galaxies (low redshift) -->
+  <g>
+    <circle cx="120" cy="360" r="9" fill="#9fe6ff" opacity="0.95"/>
+    <circle cx="120" cy="360" r="20" fill="#63e6ff" opacity="0.12"/>
+    <circle cx="245" cy="410" r="7" fill="#bcd0ff" opacity="0.9"/>
+    <circle cx="60" cy="250" r="6" fill="#8b9bff" opacity="0.85"/>
+    <circle cx="330" cy="330" r="5.5" fill="#cfe6ff" opacity="0.85"/>
+  </g>
+
+  <!-- mid-distance galaxies (periwinkle) -->
+  <g fill="#8b9bff">
+    <circle cx="420" cy="250" r="4.5" opacity="0.8"/>
+    <circle cx="300" cy="205" r="4" opacity="0.7"/>
+    <circle cx="500" cy="330" r="4.2" opacity="0.72"/>
+    <circle cx="190" cy="180" r="3.6" opacity="0.68"/>
+    <circle cx="560" cy="210" r="3.8" opacity="0.66"/>
+    <circle cx="380" cy="410" r="4" opacity="0.7"/>
+    <circle cx="640" cy="300" r="3.4" opacity="0.6"/>
+  </g>
+
+  <!-- far, faint & redshifted galaxies (high redshift = redder, dimmer) -->
+  <g>
+    <circle cx="600" cy="120" r="3" fill="#e59a86" opacity="0.55"/>
+    <circle cx="700" cy="180" r="2.6" fill="#d87f6a" opacity="0.5"/>
+    <circle cx="470" cy="120" r="2.4" fill="#e0a58f" opacity="0.5"/>
+    <circle cx="720" cy="90" r="2.2" fill="#cf7358" opacity="0.45"/>
+    <circle cx="540" cy="70" r="2" fill="#e2b0a0" opacity="0.42"/>
+    <circle cx="660" cy="240" r="2.3" fill="#d98a72" opacity="0.45"/>
+    <circle cx="760" cy="150" r="1.9" fill="#c96a4e" opacity="0.4"/>
+    <circle cx="430" cy="70" r="1.8" fill="#e0a58f" opacity="0.4"/>
+  </g>
+
+  <!-- faint field stars -->
+  <g fill="#ffffff">
+    <circle cx="90" cy="120" r="1" opacity="0.5"/>
+    <circle cx="250" cy="90" r="0.9" opacity="0.45"/>
+    <circle cx="360" cy="150" r="1" opacity="0.4"/>
+    <circle cx="150" cy="440" r="1" opacity="0.4"/>
+    <circle cx="470" cy="430" r="0.9" opacity="0.4"/>
+    <circle cx="720" cy="400" r="1" opacity="0.4"/>
+    <circle cx="620" cy="450" r="0.9" opacity="0.35"/>
+    <circle cx="30" cy="330" r="0.9" opacity="0.4"/>
+  </g>
+
+  <!-- subtle redshift arrow of light traveling across cosmic time -->
+  <path d="M70 460 Q 400 300 760 120" stroke="#8b9bff" stroke-width="1.4" fill="none" opacity="0.28" stroke-dasharray="2 8" stroke-linecap="round"/>
+</svg>

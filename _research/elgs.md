@@ -1,11 +1,12 @@
 ---
-title: "Cosmology with DESI Emission-Line Galaxies"
-#date: 2023-10-12
+title: "Galaxies × the Cosmic Microwave Background"
 layout: single-portfolio
 excerpt: "<img src='/images/research/img-sys.png' alt=''>"
 collection: research
 order_number: 10
-header: 
+card_image: "research/img-sys.png"
+blurb: "Cross-correlating DESI's tens of millions of galaxies with maps of the cosmic microwave background to measure how structure grows — and to probe the σ₈ tension."
+header:
   og_image: "research/img-sys.png"
 tags:
   - cosmology
@@ -13,30 +14,41 @@ tags:
   - desi
 ---
 
-# The Growth of Structure Tension
-The growth of structure, or $\sigma_8$, refers to how much matter clumps in a sphere of $8$ megaparsec at redshift $0$. This is an important cosmological parameter because its value signifies how the dark sector affects the large-scale structure. For example, the more dark energy density there is in the Universe, the lower is the value of $\sigma_8$ because matter will have less ability to clump or cluster together over time. 
+# Measuring how cosmic structure grows
 
-What's interesting is that when we measure $\sigma_8$ using data from recent Universe and compare that value with the value derived from data based on early Universe, they persistently disagree with each other at $2 - 3 \sigma$ level. While this level of disagreement does not necessarily mean the discovery of ``new physics", it is nevertheless puzzling as to what may be going on. 
+The **growth of structure** — often summarized by the parameter $\sigma_8$ — tells us how
+strongly matter clumps together over cosmic time. It is one of our sharpest probes of the dark
+sector: more dark energy suppresses clustering, so $\sigma_8$ encodes how dark energy and
+gravity shape the cosmic web.
 
-[//]: # (Add sig8 figure comparison)
+Intriguingly, measurements of $\sigma_8$ from the *recent* Universe sit persistently *below*
+the value inferred from the *early* Universe, at the $2$–$3\sigma$ level. Together with the
+better-known [Hubble tension](https://en.wikipedia.org/wiki/Hubble%27s_law#Hubble_tension),
+this **$\sigma_8$ tension** could point to unmodeled galaxy physics — or, more excitingly, to
+new fundamental physics.
 
-Combined with the more well-known [Hubble tension](https://en.wikipedia.org/wiki/Hubble%27s_law#Hubble_tension), the $\sigma_8$ tension could potentially point to the existence of not-yet-understood galaxy physics, or perhaps more excitingly, a hint of "new fundamental physics".  
-# Dark Energy Spectroscopic Instrument
+# The approach: galaxies × the CMB
 
-The [Dark Energy Spectroscopic Instrument (DESI)](https://desi.lbl.gov/) is an ongoing spectroscopic galaxy survey that aims to observe $\sim 50$ million objects to generate the most precise $3$-D map of the Universe to-date. In this effort, DESI will be looking back as far as $~10$ billion years ago, or when the Universe was just $\sim 3$ billion years old. 
+My core program cross-correlates galaxy samples from the [Dark Energy Spectroscopic Instrument
+(DESI)](https://desi.lbl.gov/) with maps of the **cosmic microwave background (CMB)**. Because
+the CMB is lensed by all the matter between us and the surface of last scattering,
+galaxy × CMB-lensing cross-correlations measure the growth of structure directly — while
+cancelling many of the systematics that plague either probe alone.
 
-# Emission-Line Galaxies (ELGs)
+## Measuring σ₈ with DESI ELGs × *Planck* lensing
 
-Emission-Line Galaxies form the largest tracer class within DESI, approximately $\sim 20$ million ELGs will be observed over $5$ years. These star-forming galaxies are numerous in the redshift range $0.6 < z < 1.6$, making them ideal to study the early Universe.
-# Contributions so far
-## Paper 1: How do we select ELGs?
-[DESI Year 1 Cosmology Catalogue](https://arxiv.org/pdf/2405.16593)\
-[Final ELG Target Selection](https://arxiv.org/pdf/2208.08513)\
-[Target Selection Pipeline for DESI](https://arxiv.org/pdf/2208.08518)\
-[Preliminary ELG Target Selection](https://arxiv.org/pdf/2010.11281)\
-[Validation of ELG Target Selection Strategies](https://arxiv.org/pdf/2007.14484)
-## Paper 2: How does ELG imaging systematics affect cosmological inferece?
-[Imaging systematics biases ELG auto-power spectrum](https://arxiv.org/pdf/2305.11956)
+In [Karim et al. (2025), *JCAP*](https://arxiv.org/abs/2408.15909) — first author — I
+cross-correlated ~20 million DESI Legacy Imaging Emission-Line Galaxies with *Planck* CMB
+lensing to measure $\sigma_8$. A central result: the **model used to correct for Galactic
+dust materially shifts the inferred cosmology**, a systematic that must be controlled before
+claiming any tension with the early Universe.
 
-## Paper 3: DESI Imaging ELGs X *Planck* CMB Lensing
-In collaboration-wide review. Coming out soon with exciting results!
+## Ongoing work
+
+- **EFT robustness with DR2 × ACT.** Testing how robust Effective Field Theory modeling is for
+  the DESI DR2 ELG sample cross-correlated with ACT CMB lensing.
+- **Cosmic star-formation history from ELG+LRG × CIB.** Cross-correlating DESI DR2 Emission-Line
+  and Luminous Red Galaxies with the *Planck* Cosmic Infrared Background to reconstruct how
+  star formation evolved across cosmic time.
+- **Testing gravity with marked fields** *(student-led).* Using marked-field × CMB-lensing
+  cross-correlations, calibrated on COLA simulations, to constrain modified-gravity models.
