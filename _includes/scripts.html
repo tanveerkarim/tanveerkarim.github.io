@@ -1,4 +1,17 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  /* The greedy nav measures link widths once, on load. Our display webfont
+     usually arrives after that, so the first measurement uses the fallback
+     face, items get pushed into the "hidden links" menu, and nothing ever
+     re-checks. Nudge it once the real fonts are in. */
+  (function () {
+    if (!document.fonts || !document.fonts.ready) return;
+    document.fonts.ready.then(function () {
+      window.dispatchEvent(new Event('resize'));
+    });
+  })();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

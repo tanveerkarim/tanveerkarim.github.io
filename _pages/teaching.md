@@ -9,6 +9,17 @@ Teaching and mentoring has been an essential part of my academic training since 
 
 In addition to teaching, I enjoy engaging in both academic and career mentorships.
 
+## Tutorials & interactive material
+
+Explainers I have built to make modern cosmological inference approachable — each pairs a written
+walkthrough with something you can actually play with.
+
+- **[Which data point is driving the case for evolving dark energy?]({{ site.baseurl }}/teaching/elpd/)**
+  &mdash; an introduction to the **ELPD** predictive metric and leave-one-out cross-validation, with
+  an [interactive explorer]({{ site.baseurl }}/interactive/elpd-explorer/) for the DESI DR2
+  $\Lambda$CDM vs. $w_0w_a$CDM comparison. Click a BAO tracer to withhold it and watch the
+  dark-energy constraint respond.
+
 ## Harvard University
 - Life as a Planetary Phenomenon 
     - Teaching Fellow and Guest Lecturer (Spr. 2022)

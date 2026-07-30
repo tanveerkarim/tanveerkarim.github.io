@@ -30,7 +30,9 @@ the cosmology defensible.
   galaxy power spectrum and, in turn, cosmological inference.
 - **Model selection for dark energy.** Applying the expected log pointwise predictive density
   (**ELPD**) as a principled criterion in the $w_0 w_a$-versus-$\Lambda$CDM debate — asking
-  which dark-energy model the data actually prefer, and by how much.
+  which dark-energy model the data actually prefer, and by how much. Because ELPD decomposes
+  point by point, it can also identify *which* measurements drive a preference:
+  **[try the interactive DESI DR2 leave-one-tracer-out explorer]({{ site.baseurl }}/teaching/elpd/)**.
 - **Faster inference with emulators** *(student-led).* Improving the
   [COSMOPOWER](https://github.com/alessiospuriomancini/cosmopower) emulator through
   hyper-parameter tuning, to accelerate cosmological likelihood evaluation.

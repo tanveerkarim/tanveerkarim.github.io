@@ -25,8 +25,6 @@ cta:
     url: "mailto:tanveer.karim@utoronto.ca"
 
 highlights:
-  - k: "Harvard"
-    v: "Ph.D. &amp; A.M. in Astronomy"
   - k: "DESI"
     v: "Builder &middot; co-leads the Photo-z Topical Team"
   - k: "DESC"
